@@ -1,4 +1,13 @@
 # CCapture.js - A library to capture canvas-based animations
+
+## Difference with original CCapture
+
+* fix npm import error
+* default version disabled `setInterval` hook to resolve some conflicts
+  * to enable `setInterval`, change `main` in `package.json` to `build/CCapture.all.min.js`
+  
+## Original MarkDown
+
 CCapture.js is a library to help capturing animations created with HTML5 `canvas` at a fixed framerate. 
 
 - [What is CCapture.js and why would I need it?](#what-is-ccapturejs-and-why-would-i-need-it)
